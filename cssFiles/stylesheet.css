@@ -1,0 +1,370 @@
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+  }
+  
+  
+
+
+
+
+
+body {
+  margin: 0px;
+
+  }
+
+
+.menu {
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  background-image: url(../images/sfondo.jpg);
+  background-size: cover;
+  color: #FFFBE9;
+  font-size: 20px;
+  margin: 0px;
+  top: 0px;
+
+}
+.menu p{
+  display: inline-flex;
+  color: #FFFBE9;
+  text-align: center;
+  
+}
+
+.menu a:link, .menu a:visited {
+    text-decoration: none;
+    
+    background-color: transparent;
+    color: black;
+}
+a:hover, a:active {
+    text-decoration: none;
+    
+}
+
+nav {
+  display: inline-flex;
+ 
+}
+nav ul {
+  list-style: none;
+  
+}
+
+nav ul li {
+  display:inline-block;
+
+}
+
+nav ul li a {
+  display: block;
+  padding:1px 1px;
+  color:#333;
+  text-decoration: none;
+}
+
+
+nav ul li:hover > ul {
+  display: block;
+
+
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+
+  
+}
+
+nav ul ul li {
+  display: block;
+  
+  
+}
+
+
+
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#contenitore1{
+
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 150px;
+ 
+}
+
+.precisa, .programmazione, .perfezionista, .viaggi, .determinata, .competitiva {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+}
+
+.foto {
+
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.carattSx {
+
+  justify-content: space-around;
+  
+}
+
+.precisa{
+  margin-left: 100px;
+  background-image: url(../images/blu.jpg);
+}
+
+.perfezionista{
+  background-image: url(../images/viola.jpeg);
+}
+.programmazione {
+  background-image: url(../images/rosa.jpeg);
+  margin-left: 100px;
+  margin-top: 20px;
+  line-height: 20px;
+  padding-top: 30px;
+  width: 150px;
+  height: 120px;
+}
+.determinata {
+  background-image: url(../images/rosso.jpeg);
+}
+
+.viaggi{
+  background-image: url(../images/giallo.jpeg);
+}
+
+.competitiva {
+  margin-left: 100px;
+  background-image: url(../images/arancione.jpeg)
+}
+
+.carattDx{
+
+  justify-content: space-around;
+
+}
+
+
+
+.contenitore {
+ margin-top: 10px;
+ padding: 200px;
+ background-image: url(../images/schermo.jpg);
+ background-size: cover;
+ background-position: center;
+ background-color: #3A3845;
+max-width: 100%;
+
+ 
+}
+.competenze {
+  
+  margin-top: 40px;
+  margin-left: 25%;
+  margin-bottom: 250px;
+  line-height: 55px;
+  font-size: 18px;
+  
+  width: 400px;
+  
+}
+.form {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
+
+@media screen and (max-width: 410px) {
+
+
+  .menu{
+    margin: 0px;
+    max-width: 100%;
+    font-size: 18px;
+  }
+  #contenitore1{
+    
+    margin-top: 20px;
+   max-width: 100%;
+  }
+
+  .contenitore {
+    max-width:100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  .competenze { 
+  margin-top: -90px;
+  font-size: 16px;
+  margin-left: -135px;
+  width: 290px;
+  line-height: 25px;
+  }
+
+  .precisa, .programmazione, .perfezionista, .viaggi, .determinata, .competitiva {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    color: #000000;
+    font-size: 15px;
+  }
+
+  img {
+    width: 130px;
+    height: 250px;
+    border-radius: 50px;
+    
+    
+  }
+
+
+.carattDx{
+  margin-top: 60px;
+margin-right: -12px;
+  justify-content: space-around;
+
+}
+
+.viaggi{
+ line-height: 110px;
+ height: 110px;
+  width: 115px;
+}
+
+.carattSx {
+  margin-top: 60px;
+  justify-content: space-around;
+  margin-left: 5px;
+ 
+}
+.precisa{
+  margin-left: 10px;
+  background-image: url(images/blu.jpg);
+}
+.programmazione {
+  
+  line-height: 15px;
+  height: 80px;
+  width: 115px;
+  margin-left: 5px;
+}
+.competitiva{
+  margin-left: 10px;
+}
+
+.form{
+  font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 411px) and (max-width: 760px) {
+
+
+
+#contenitore1 {
+  
+  width: 700px;
+}
+  .menu {
+    width: 700px;
+  }
+  .contenitore {
+    width:300px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  .competenze { 
+  margin-top: -90px;
+  font-size: 16px;
+  margin-left: 15px;
+  width: 290px;
+  line-height: 25px;
+    
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 761px) and (max-width: 800px) {
+.menu {
+  max-width: 100%;
+}
+.contenitore {
+  max-width:100%;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.competenze { 
+margin-top: -90px;
+font-size: 16px;
+margin-left: 40px;
+width: 290px;
+line-height: 25px;
+  
+}
+}
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .contenitore {
+    max-width:100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  .competenze { 
+  margin-top: -90px;
+  font-size: 16px;
+  margin-left: 70px;
+  width: 290px;
+  line-height: 25px;
+    
+  }
+}
+
+@media only screen and (min-width: 901px) and(max-width: 1200px){
+
+  .contenitore {
+
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+}
